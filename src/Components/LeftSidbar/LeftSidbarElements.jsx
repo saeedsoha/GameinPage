@@ -9,10 +9,8 @@ export const LeftsidbarContainer = styled.div`
     background: #171717;
     height: 100%;
     width: 250px;
-
     @media screen and (max-width: 900px) {
             display: none;
-
     }
 `
 

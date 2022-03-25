@@ -16,7 +16,6 @@ function RightSidbar() {
   return (
     <RightSidbarContainer>
       <RightSidbarBackground >
-
          <NavBar />
         <HeaderText>Online Soon
           <span><br />Bulid your</span>
@@ -24,6 +23,7 @@ function RightSidbar() {
           <HeaderIcon>See more </HeaderIcon>
         </HeaderText>
       </RightSidbarBackground>
+
       <HeaderStatus/>
       <ScrollNav/>
       <Information/>

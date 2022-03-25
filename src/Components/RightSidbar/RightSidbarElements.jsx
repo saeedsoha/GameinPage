@@ -4,9 +4,8 @@ import BgImageMObile from '../../Images/Header2Mobile.jpg'
 
 
 export const RightSidbarContainer = styled.div`
-    width: 100vw;
     background-color: #1e1e20;
-
+    overflow: hidden;
 `
 
 export const RightSidbarBackground = styled.div`
