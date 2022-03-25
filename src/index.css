@@ -1,13 +1,27 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Poppins:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+* {
+
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: #1e1e20;
+  --Primary-color-second: #171717;
+  --theme-color: #865bce;
+  --cards-color: #23262d;
+  --Menu-color: #6f6f70;
+  --Menu-Icon-color: #5b5b72;
+  --hover-menu: #5b5b7242;
 }
+
+
+
+@media screen and (max-width: 800){
+  .mobile-hide{
+    display: none;
+  }
+  }
